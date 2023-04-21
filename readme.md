@@ -15,7 +15,7 @@ The gesture-controlled-drone is a software package to control a tello drone with
 - The frontend detects hand gestures based on the video feed of the connected camera and the hand pose model from TensorFlow.js
 - With TensorFlow.js the hand detecting is done in the browser and not in the backend
 - The tello drone offers an API to control the drone via text commands through a UDP socket connection
-- Drone commands initiated by the frontend are sent to the backend via a websocket and connection and will then be forwarded to the drone via the UDP socket connection.
+- Drone commands initiated by the frontend are sent to the backend via a websocket connection and will then be forwarded to the drone via the UDP socket connection.
 
 ## Improvement
 Instead of gesture control the body segmentation model could be more reliable which is also available in TensorFlow.js.
