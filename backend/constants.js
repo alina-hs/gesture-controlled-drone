@@ -1,0 +1,21 @@
+"use strict";
+
+const CONNECTION_STATUS_BACKEND = {
+  connected: "BACKEND_CONNECTED",
+  disconnected: "BACKEND_DISCONNECTED",
+};
+
+const CONNECTION_STATUS_DRONE = {
+  connected: "DRONE_CONNECTED",
+  disconnected: "DRONE_DISCONNECTED",
+};
+
+const START_DRONE_SDK = "command";
+const DRONE_EMERGENCY_COMMAND = "emergency";
+
+module.exports = {
+  CONNECTION_STATUS_BACKEND,
+  CONNECTION_STATUS_DRONE,
+  START_DRONE_SDK,
+  DRONE_EMERGENCY_COMMAND,
+};
